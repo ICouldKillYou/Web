@@ -1,0 +1,246 @@
+body, div, h1, h2, h3, h4, h5, h6, dl, dt, dd, ul, ol, li, blockquote, p, pre, code, form, button, input, textarea, table, th, td, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background: #f2f2f7;
+}
+
+.txt {
+    border: 2px solid #009abe;
+    width: 150px;
+    height: 25px;
+    -moz-transition: all .5s; /* 兼容Firefox 4  */
+    -webkit-transition: all .5s; /*兼容 Safari and Chrome */
+    -o-transition: all .5s; /* 兼容Opera */
+}
+
+.txt:focus { /*点击*/
+    border: 2px solid #009abe;
+    width: 180px;
+}
+
+.btn {
+    border: none;
+    background-color: #009abe;
+    width: 50px;
+    height: 29px;
+    color: #fff;
+}
+
+.btn:hover { /*鼠标移动*/
+    cursor: pointer; /*显示小手*/
+    background-color: #ED5565;
+}
+
+* {
+    list-style-type: none;
+    text-decoration: none
+}
+
+/*去掉li的点和a的下划线*/
+#header {
+    width: 100%;
+    height: 210px;
+    background-image: url("../img/beach.jpg");
+    background-size: 100% auto; /*设置图片和div一样宽*/
+    background-repeat: no-repeat;
+}
+
+#nav {
+    width: 100%;
+    height: 50px;
+    background-color: #72d0eb;
+    opacity: 0.8; /*设置透明度*/
+}
+
+#menu-top {
+    width: 1000px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+#menu-top a {
+    float: left;
+    line-height: 50px;
+    padding: 0 15px;
+    font-size: 16px;
+    color: #FFF;
+    text-shadow: 0 1px 0 #1398D0; /*基础的文本阴影效果*/
+}
+
+#menu-top a:hover { /*鼠标移动*/
+    cursor: pointer; /*显示小手*/
+    background-color: #16a9e9;
+}
+
+#search {
+    float: right;
+    margin: 0 auto;
+}
+
+#main {
+    width: 1000px;
+    margin: auto;
+    height: 100%;
+}
+
+#left {
+    width: 750px;
+    height: 100%;
+    background-color: #f2f2f7;
+    float: left;
+}
+
+.row {
+    width: 750px;
+    height: 210px;
+    background-color: #fff;
+    margin-top: 4%;
+}
+
+.row h3 {
+    padding: 2%;
+    color: #41B9EB;
+    font-size: 16px;
+}
+
+.row img {
+    float: left;
+    margin: 2%;
+
+}
+
+.row img:hover { /*当元素获得光标焦点时使用的样式*/
+    cursor: pointer; /*显示小手*/
+    transform: scale(1.1); /*表示在鼠标放到图片上的时候图片按比例放大1.4倍。*/
+    transition: all 0.6s; /*;表示所有的属性变化在0.6s的时间段内完成。*/
+}
+
+.content {
+    width: 530px;
+    height: 90px;
+    float: left;
+}
+
+.content p {
+    padding: 3% 0
+}
+
+.content ul {
+    width: 530px;
+    height: 20px;
+    float: left;
+}
+
+.content li {
+    float: left;
+    margin-right: 4%;
+    border: 1px #c2c2c2 solid;
+    border-radius: 4px; /*圆角*/
+    padding: 4px 6px;
+    font-size: 14px;
+}
+
+.content p {
+    line-height: 26px;
+    font-size: 14px;
+}
+
+.content i {
+    font-size: 10px;
+}
+
+#right {
+    width: 230px;
+    height: 100%;
+    background-color: #fff;
+    float: right;
+    margin-top: 3%;
+}
+
+#right h4 {
+    color: #939393;
+    padding: 4% 2%;
+    background-color: #FAFAFA;
+}
+
+.pagination {
+    padding: 4% 0;
+    color: white;
+    text-shadow: 0 0 0.1em #fff; /*外发光*/
+}
+
+.pagination a {
+    margin: 2% 0%;
+    padding: 1% 2%;
+    background-color: #42B9EB;
+}
+
+.pagination a:hover { /*鼠标经过*/
+    cursor: pointer; /*显示小手*/
+    background-color: #ED5565;
+}
+
+.pagination span {
+    margin: 2% 0%;
+    padding: 1% 2%;
+    background-color: #42B9EB;
+}
+
+.pagination span:hover { /*鼠标经过*/
+    background-color: #ED5565;
+    cursor: pointer; /*显示小手*/
+}
+
+.foot {
+    width: 100%;
+    height: 200px;
+    background-color: #42B9EB;
+    float: left;
+}
+
+.theme {
+    border-bottom: solid #42B9EB 2px;
+    margin: 0 2%
+}
+
+.theme span {
+    float: right;
+}
+
+#personal {
+    width: 230px;
+    height: 175px;
+    /*background-color: #dfdfdf;*/
+}
+
+#personal img {
+    margin: 4%;
+    float: left;
+}
+
+#nickName {
+    margin: 4% 0;
+    float: left;
+    width: 160px;
+    height: 50px;
+    /*background-color: #eb8787;*/
+    line-height: 25px;
+}
+
+#brief {
+    width: 230px;
+    height: 100px;
+    /*background-color: bisque;*/
+    float: left;
+}
+
+#brief p {
+    word-break: break-all;
+    font-size: 10px;
+    line-height: 24px;
+    color: #3e3e3e;
+    padding:0 4%;
+}
