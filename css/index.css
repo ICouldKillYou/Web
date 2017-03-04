@@ -95,9 +95,9 @@ html {
 
 .row {
     width: 750px;
-    height: 210px;
+    height: 200px;
     background-color: #fff;
-    margin-top: 4%;
+    margin-top: 3%;
 }
 
 .row h3 {
@@ -155,15 +155,13 @@ html {
 #right {
     width: 230px;
     height: 100%;
-    background-color: #fff;
     float: right;
-    margin-top: 3%;
+    margin-top: 1.5%;
 }
 
 #right h4 {
-    color: #939393;
+    color: #42B9EB;
     padding: 4% 2%;
-    background-color: #FAFAFA;
 }
 
 .pagination {
@@ -210,30 +208,38 @@ html {
     float: right;
 }
 
-#personal {
+.personal {
     width: 230px;
-    height: 175px;
-    /*background-color: #dfdfdf;*/
+    height: 100%;
+    background-color: #ffffff;
+    float: left;
+    margin: 4% 2%;
 }
 
-#personal img {
+.personal img {
     margin: 4%;
     float: left;
+}
+
+.personal ul {
+    font-size: 14px;
+    padding: 0 4%;
+    line-height: 30px;
+    letter-spacing: 2px;
 }
 
 #nickName {
     margin: 4% 0;
     float: left;
     width: 160px;
-    height: 50px;
-    /*background-color: #eb8787;*/
+    height: 100%;
+    background-color: #ffffff;
     line-height: 25px;
 }
 
 #brief {
     width: 230px;
-    height: 100px;
-    /*background-color: bisque;*/
+    height: 100%;
     float: left;
 }
 
@@ -242,5 +248,5 @@ html {
     font-size: 10px;
     line-height: 24px;
     color: #3e3e3e;
-    padding:0 4%;
+    padding: 0 4%;
 }
